@@ -40,9 +40,12 @@ const Container = styled.div`
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr;
+  grid-auto-rows: auto;
   grid-gap: 1rem;
   grid-template-areas:
     "header"
-    "main";
+    "main"
+    "footer";
 `;
+
+export { GlobalStyle, Container };
