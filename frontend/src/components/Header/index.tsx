@@ -8,14 +8,15 @@ export const Header = () => {
     return (
         <Container>
             <div className={'top'}>
-                <span>Desenvolvedores</span>
-                <span>
+                <span className='dev'>Desenvolvedores</span>
+                <span className='logo'>
                     <img src={Logo} alt="Logo" />
                 </span>
-                <span>
+                <span className='register'>
                     <a href="http://localhost:3000/cadastro" title='Cadastrar meu Perfil'>Cadastrar meu Perfil</a>
                 </span>
             </div>
+            <h1>Encontre os <span>Melhores <br /> Desenvolvedores do Mundo!</span></h1>
         </Container>
     );
 };
